@@ -689,19 +689,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\The Ice and Fire\\.nuget\\packages\\": {}
+    "C:\\Users\\TEMP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\The Ice and Fire\\Desktop\\workshop\\ComLibrary\\ComLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\TEMP\\Desktop\\workshop\\ComLibrary\\ComLibrary.csproj",
       "projectName": "ComLibrary",
-      "projectPath": "C:\\Users\\The Ice and Fire\\Desktop\\workshop\\ComLibrary\\ComLibrary.csproj",
-      "packagesPath": "C:\\Users\\The Ice and Fire\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\The Ice and Fire\\Desktop\\workshop\\ComLibrary\\obj\\",
+      "projectPath": "C:\\Users\\TEMP\\Desktop\\workshop\\ComLibrary\\ComLibrary.csproj",
+      "packagesPath": "C:\\Users\\TEMP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TEMP\\Desktop\\workshop\\ComLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\The Ice and Fire\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\TEMP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
