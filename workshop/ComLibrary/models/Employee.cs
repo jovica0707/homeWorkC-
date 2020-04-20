@@ -6,7 +6,7 @@ using System.Text;
 
 namespace ComLibrary.models
 {
-    class Employee
+    public class Employee
     {
         public string FirstName {get; set; }
         public string LastName { get; set; }
@@ -15,10 +15,10 @@ namespace ComLibrary.models
 
         public void PrintInfo()
         {
-            Console.WriteLine("First Name: {0}, Last Name: {1}, Salary: {2}", FirstName, LastName, Role, Salary);
+            Console.WriteLine("First Name: {0}, Last Name: {1}, Salary: {2}", FirstName, LastName, Salary);
         }
 
-        public double GetSalary ()
+        public virtual double GetSalary ()
         {
             return Salary;
         }

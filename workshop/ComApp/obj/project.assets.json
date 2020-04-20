@@ -705,19 +705,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TEMP\\.nuget\\packages\\": {}
+    "C:\\Users\\The Ice and Fire\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TEMP\\Desktop\\workshop\\ComApp\\ComApp.csproj",
+      "projectUniqueName": "E:\\workshop\\ComApp\\ComApp.csproj",
       "projectName": "ComApp",
-      "projectPath": "C:\\Users\\TEMP\\Desktop\\workshop\\ComApp\\ComApp.csproj",
-      "packagesPath": "C:\\Users\\TEMP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TEMP\\Desktop\\workshop\\ComApp\\obj\\",
+      "projectPath": "E:\\workshop\\ComApp\\ComApp.csproj",
+      "packagesPath": "C:\\Users\\The Ice and Fire\\.nuget\\packages\\",
+      "outputPath": "E:\\workshop\\ComApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\TEMP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\The Ice and Fire\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -730,8 +730,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\TEMP\\Desktop\\workshop\\ComLibrary\\ComLibrary.csproj": {
-              "projectPath": "C:\\Users\\TEMP\\Desktop\\workshop\\ComLibrary\\ComLibrary.csproj"
+            "E:\\workshop\\ComLibrary\\ComLibrary.csproj": {
+              "projectPath": "E:\\workshop\\ComLibrary\\ComLibrary.csproj"
             }
           }
         }
