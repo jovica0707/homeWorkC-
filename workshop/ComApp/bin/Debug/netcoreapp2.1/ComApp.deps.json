@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "ComApp/1.0.0": {
+        "dependencies": {
+          "ComLibrary": "1.0.0"
+        },
+        "runtime": {
+          "ComApp.dll": {}
+        }
+      },
+      "ComLibrary/1.0.0": {
+        "runtime": {
+          "ComLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ComApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ComLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
