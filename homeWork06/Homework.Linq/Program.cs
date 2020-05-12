@@ -74,7 +74,9 @@ namespace Homework.Linq
 								.First();
 			Person oldPerson = people
 										.Where(x => x.Age.Equals(people.Max(y => y.Age)))
-										.First();
+										.FirstOrDefault();  ///.First();
+
+
 
 			//.Min(x => x.Age)
 			//.Max(x => x.Age)
@@ -116,7 +118,7 @@ namespace Homework.Linq
 						.LastOrDefault();
 
 
-			Console.WriteLine( $"{FemaleOver30NameP.FirstName} {FemaleOver30NameP.LastName} {FemaleOver30NameP.Age} years old");
+			Console.WriteLine(FemaleOver30NameP == null ? "Nothing found" : $"{FemaleOver30NameP.FirstName} {FemaleOver30NameP.LastName} {FemaleOver30NameP.Age} years old");
 
 
 
@@ -134,12 +136,34 @@ namespace Homework.Linq
 			// Task 09
 			// print the names of the male persons that have firstName longer than lastName
 
+			List<string> maleNamelonger = people
+								.Where(x => x.Gender == 'M')
+								.Where(x => x.FirstName.Length > x.LastName.Length)
+								.Select(x => x.FirstName)
+								.ToList();
+
+			
+			Console.WriteLine("");
+			maleNamelonger.ForEach(Console.WriteLine);
+			
+
 	
 
 
 
 			// Task 10
 			// print the lastNames of the female persons that have odd number of ages
+
+			List<string> femalePersonsNumberAges = people
+						.Where(x => x.Gender == 'F')
+						.Where(x => x.Age % 2 != 0)
+						.Select(x => x.LastName)
+						.ToList();
+
+			
+			femalePersonsNumberAges.ForEach(Console.WriteLine);
+			
+
 
 
 			Console.ReadLine();
